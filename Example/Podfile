@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'DQRScanner_Example' do
+  pod 'DQRScanner', :path => '../'
+
+end

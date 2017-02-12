@@ -1,0 +1,26 @@
+{
+  "name": "DQRScanner",
+  "version": "0.1.0",
+  "summary": "A short description of DQRScanner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Carpenter, Deepak (US - Bengaluru)/DQRScanner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Carpenter, Deepak (US - Bengaluru)": "decarpenter@deloitte.com"
+  },
+  "source": {
+    "git": "https://github.com/Carpenter, Deepak (US - Bengaluru)/DQRScanner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DQRScanner/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ]
+}

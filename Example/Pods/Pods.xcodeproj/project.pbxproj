@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D3DB465F8EA332925B0896FE8ED7A8 /* DQRScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2BB6ECC9F727F9ED5699736ABC9125 /* DQRScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D8AD3A69144FA0DAD3268A0684877EE /* DQRScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A5D0FA2CB921A0CB3575BB0289981 /* DQRScanner-dummy.m */; };
+		50297562B31F80EEA7FFFAD8A2338EC9 /* Pods-DQRScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AE539D176E40C9412539DB14BD76AE /* Pods-DQRScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9850B9FDC6A5512CFAA660196DE1F13A /* DQRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD618F4F28C10063F38A7AA096EBBD7A /* DQRScannerView.swift */; };
+		BFBB5FD0A8CC6B835F4378E9609400EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */; };
+		CCC158CEB4E179D7764835D2B2CAB420 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FEE101CACF7AC0906D397660A526AB /* AVFoundation.framework */; };
+		DC81F4B5048A8D2969C70AA392248155 /* Pods-DQRScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CB356B804EC5FEDF6EB6C0DAD4F7B /* Pods-DQRScanner_Example-dummy.m */; };
+		DF27279448B25B12945D78004E9CD1B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DF7486DA9C7ACBFB36F83764720A59 /* UIKit.framework */; };
+		E6355E7E6AF6F148B449DF5DED4C1996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2E7DCF17A629B1A7AD97A838283382B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A079586967B897AE0BC9D34A793B5798;
+			remoteInfo = DQRScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DF7486DA9C7ACBFB36F83764720A59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0583F440E16E68BE64D2AFCEC44B97FE /* DQRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A502880B08C71F9F3886892BED4CDF0 /* Pods-DQRScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQRScanner_Example-resources.sh"; sourceTree = "<group>"; };
+		0E1C6D5D19FCB00B3FAC2C5582648486 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B2F258EEC699220D3608B904ECD31F /* DQRScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQRScanner-prefix.pch"; sourceTree = "<group>"; };
+		2A5CFFB5051C26481AFC39C2D9A02C0E /* Pods-DQRScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DQRScanner_Example.modulemap"; sourceTree = "<group>"; };
+		5E9F1EBB835253C41E0286F67EF70E7F /* DQRScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DQRScanner.modulemap; sourceTree = "<group>"; };
+		6EBCAFA240FA0F08F1525F7859BA8F2F /* Pods-DQRScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DQRScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		72FEE101CACF7AC0906D397660A526AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D6CB356B804EC5FEDF6EB6C0DAD4F7B /* Pods-DQRScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DQRScanner_Example-dummy.m"; sourceTree = "<group>"; };
+		88386ED664FDC734AAB777B65D1CCB4F /* Pods-DQRScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQRScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C5B935FADAF888CE5806648440AAC2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECB50EE76F7190189BEB11DC33E4700 /* DQRScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DQRScanner.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94815C3FDE97990B1166E024A4940D4F /* Pods_DQRScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQRScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6A5D0FA2CB921A0CB3575BB0289981 /* DQRScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DQRScanner-dummy.m"; sourceTree = "<group>"; };
+		BF2BB6ECC9F727F9ED5699736ABC9125 /* DQRScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQRScanner-umbrella.h"; sourceTree = "<group>"; };
+		C0AE539D176E40C9412539DB14BD76AE /* Pods-DQRScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DQRScanner_Example-umbrella.h"; sourceTree = "<group>"; };
+		C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD618F4F28C10063F38A7AA096EBBD7A /* DQRScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DQRScannerView.swift; sourceTree = "<group>"; };
+		D3D2D36E45C59358EE78E1E9B56C37AA /* Pods-DQRScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQRScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D997929ED1834BCE2517C8B989E0A18E /* Pods-DQRScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQRScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DF3200D8C47FD991F8FB1ABF7132C27C /* Pods-DQRScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DQRScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F1E4888AF40E15E42C2DA69D72A6617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC158CEB4E179D7764835D2B2CAB420 /* AVFoundation.framework in Frameworks */,
+				BFBB5FD0A8CC6B835F4378E9609400EE /* Foundation.framework in Frameworks */,
+				DF27279448B25B12945D78004E9CD1B2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8E0C689E022EB787B439AB1C86B06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6355E7E6AF6F148B449DF5DED4C1996 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051299BB09BC341CF2E97A639D4275E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0583F440E16E68BE64D2AFCEC44B97FE /* DQRScanner.framework */,
+				94815C3FDE97990B1166E024A4940D4F /* Pods_DQRScanner_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F636F190E8358172B07A737059AF70D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		211FC3FC7B028A907DCE55759A821629 /* DQRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				4F8C7482B77F337781DFC7F852484DA8 /* DQRScanner */,
+				2EAB7F2F3B4D5D607FE56FC3C3BC3ABA /* Support Files */,
+			);
+			name = DQRScanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2EAB7F2F3B4D5D607FE56FC3C3BC3ABA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9F1EBB835253C41E0286F67EF70E7F /* DQRScanner.modulemap */,
+				8ECB50EE76F7190189BEB11DC33E4700 /* DQRScanner.xcconfig */,
+				AF6A5D0FA2CB921A0CB3575BB0289981 /* DQRScanner-dummy.m */,
+				20B2F258EEC699220D3608B904ECD31F /* DQRScanner-prefix.pch */,
+				BF2BB6ECC9F727F9ED5699736ABC9125 /* DQRScanner-umbrella.h */,
+				0E1C6D5D19FCB00B3FAC2C5582648486 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DQRScanner";
+			sourceTree = "<group>";
+		};
+		49E9A36707D339784932784719899108 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				211FC3FC7B028A907DCE55759A821629 /* DQRScanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4DC400C2F14ABAF2CB440EA01A9995AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C9CFDAE0BF5069CE88B4869C3938DF /* Pods-DQRScanner_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F8C7482B77F337781DFC7F852484DA8 /* DQRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				61A88E65B6A309999A182C58B9DE9221 /* Classes */,
+			);
+			path = DQRScanner;
+			sourceTree = "<group>";
+		};
+		61A88E65B6A309999A182C58B9DE9221 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD618F4F28C10063F38A7AA096EBBD7A /* DQRScannerView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6F636F190E8358172B07A737059AF70D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				72FEE101CACF7AC0906D397660A526AB /* AVFoundation.framework */,
+				C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */,
+				01DF7486DA9C7ACBFB36F83764720A59 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				49E9A36707D339784932784719899108 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				051299BB09BC341CF2E97A639D4275E4 /* Products */,
+				4DC400C2F14ABAF2CB440EA01A9995AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C9CFDAE0BF5069CE88B4869C3938DF /* Pods-DQRScanner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8C5B935FADAF888CE5806648440AAC2F /* Info.plist */,
+				2A5CFFB5051C26481AFC39C2D9A02C0E /* Pods-DQRScanner_Example.modulemap */,
+				DF3200D8C47FD991F8FB1ABF7132C27C /* Pods-DQRScanner_Example-acknowledgements.markdown */,
+				6EBCAFA240FA0F08F1525F7859BA8F2F /* Pods-DQRScanner_Example-acknowledgements.plist */,
+				7D6CB356B804EC5FEDF6EB6C0DAD4F7B /* Pods-DQRScanner_Example-dummy.m */,
+				D3D2D36E45C59358EE78E1E9B56C37AA /* Pods-DQRScanner_Example-frameworks.sh */,
+				0A502880B08C71F9F3886892BED4CDF0 /* Pods-DQRScanner_Example-resources.sh */,
+				C0AE539D176E40C9412539DB14BD76AE /* Pods-DQRScanner_Example-umbrella.h */,
+				88386ED664FDC734AAB777B65D1CCB4F /* Pods-DQRScanner_Example.debug.xcconfig */,
+				D997929ED1834BCE2517C8B989E0A18E /* Pods-DQRScanner_Example.release.xcconfig */,
+			);
+			name = "Pods-DQRScanner_Example";
+			path = "Target Support Files/Pods-DQRScanner_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00A4FAE54709B47D0DF0B2FFE7E256D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D3DB465F8EA332925B0896FE8ED7A8 /* DQRScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97F9A257198B72D5CCB7F39877BB981 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50297562B31F80EEA7FFFAD8A2338EC9 /* Pods-DQRScanner_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B01BBD8CBDDDD5AC65EE81331CF749C /* Pods-DQRScanner_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED706FE24CCE694D91D2BECB3C2DBEA7 /* Build configuration list for PBXNativeTarget "Pods-DQRScanner_Example" */;
+			buildPhases = (
+				7F8A42AD90ACA18089FE985F341C3BFB /* Sources */,
+				7C8E0C689E022EB787B439AB1C86B06A /* Frameworks */,
+				D97F9A257198B72D5CCB7F39877BB981 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C083C516BC1EA0ED6682130723E59A4A /* PBXTargetDependency */,
+			);
+			name = "Pods-DQRScanner_Example";
+			productName = "Pods-DQRScanner_Example";
+			productReference = 94815C3FDE97990B1166E024A4940D4F /* Pods_DQRScanner_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A079586967B897AE0BC9D34A793B5798 /* DQRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED0FD3F7593769B1BDD4B2ED0469A7D /* Build configuration list for PBXNativeTarget "DQRScanner" */;
+			buildPhases = (
+				F31F02CCFC9B8E891811D180BC70444F /* Sources */,
+				5F1E4888AF40E15E42C2DA69D72A6617 /* Frameworks */,
+				00A4FAE54709B47D0DF0B2FFE7E256D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DQRScanner;
+			productName = DQRScanner;
+			productReference = 0583F440E16E68BE64D2AFCEC44B97FE /* DQRScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 051299BB09BC341CF2E97A639D4275E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A079586967B897AE0BC9D34A793B5798 /* DQRScanner */,
+				8B01BBD8CBDDDD5AC65EE81331CF749C /* Pods-DQRScanner_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8A42AD90ACA18089FE985F341C3BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC81F4B5048A8D2969C70AA392248155 /* Pods-DQRScanner_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31F02CCFC9B8E891811D180BC70444F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8AD3A69144FA0DAD3268A0684877EE /* DQRScanner-dummy.m in Sources */,
+				9850B9FDC6A5512CFAA660196DE1F13A /* DQRScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C083C516BC1EA0ED6682130723E59A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DQRScanner;
+			target = A079586967B897AE0BC9D34A793B5798 /* DQRScanner */;
+			targetProxy = B2E7DCF17A629B1A7AD97A838283382B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CA62DBDAB3475A281C76DF1E1A2EA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88386ED664FDC734AAB777B65D1CCB4F /* Pods-DQRScanner_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DQRScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQRScanner_Example/Pods-DQRScanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DQRScanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C143479E300A258C9BB1265468A6D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECB50EE76F7190189BEB11DC33E4700 /* DQRScanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DQRScanner/DQRScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQRScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQRScanner/DQRScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DQRScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C06C9CE56D6565A276067814450C8063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECB50EE76F7190189BEB11DC33E4700 /* DQRScanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DQRScanner/DQRScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQRScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQRScanner/DQRScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DQRScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F43DBD656D2A1AABDFFE2691F4981DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D997929ED1834BCE2517C8B989E0A18E /* Pods-DQRScanner_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DQRScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQRScanner_Example/Pods-DQRScanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DQRScanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED0FD3F7593769B1BDD4B2ED0469A7D /* Build configuration list for PBXNativeTarget "DQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06C9CE56D6565A276067814450C8063 /* Debug */,
+				9C143479E300A258C9BB1265468A6D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED706FE24CCE694D91D2BECB3C2DBEA7 /* Build configuration list for PBXNativeTarget "Pods-DQRScanner_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA62DBDAB3475A281C76DF1E1A2EA81 /* Debug */,
+				F43DBD656D2A1AABDFFE2691F4981DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

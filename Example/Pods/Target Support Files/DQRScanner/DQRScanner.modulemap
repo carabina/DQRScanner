@@ -1,0 +1,6 @@
+framework module DQRScanner {
+  umbrella header "DQRScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
